@@ -12,7 +12,7 @@ st.title("E-commerce UI A/B Testing Analysis")
 st.markdown("Upload your A/B test data and countries data to dynamically analyze the results through probability, A/B testing (simulations & z-test), and logistic regression.")
 
 # --- 1. INTERACTIVE DATA UPLOADS ---
-st.sidebar.header("1. Upload Data")
+st.sidebar.header("Upload Data")
 ab_data_file = st.sidebar.file_uploader("Upload A/B Test Data (CSV)", type=["csv"])
 countries_file = st.sidebar.file_uploader("Upload Countries Data (CSV)", type=["csv"])
 
