@@ -256,3 +256,4 @@ if ab_data_file is not None and countries_file is not None:
         st.error(f"Error fitting the logistic regression model: {e}")
 else:
     st.info("👈 Please upload both `ab_data.csv` and `countries.csv` in the sidebar to view the interactive analysis.")
+# do streamlit run app.py to get the app
